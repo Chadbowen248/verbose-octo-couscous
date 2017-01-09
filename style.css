@@ -1,0 +1,63 @@
+body {
+  background-color: black;
+  color: white;
+}
+
+#loading {
+  animation: pulse 2s infinite;
+  text-align: center;
+  margin-top: 300px;
+}
+
+@keyframes pulse {
+  0%,100% {
+    opacity: 1
+  }
+
+  50% {
+    opacity: .3
+  }
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0
+  }
+
+  100% {
+    opacity: 1
+  }
+}
+
+
+#hideLoadScreen {
+  display: none
+}
+
+#app-hidden{
+  display: none
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+#app {
+  margin-top: 300px;
+  display: block;
+  width: 100%;
+  font-family: 'Montserrat', sans-serif;
+  text-align: center;
+  color: white;
+  animation: fadeIn 2s ease-in;
+}
+
+#next {
+  cursor: pointer;
+}
+
+span {
+  margin-left: 20px;
+  margin-right: 20px;
+}
